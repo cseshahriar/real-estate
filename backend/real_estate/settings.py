@@ -156,3 +156,6 @@ FILE_UPLOAD_PERMISSIONS = 0o640
 
 # loggings
 LOGGING = LOGGING  # app/logging.py
+
+
+AUTH_USER_MODEL = 'accounts.UserAccount'

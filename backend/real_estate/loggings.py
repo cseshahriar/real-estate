@@ -6,9 +6,10 @@ https://docs.djangoproject.com/en/3.2/topics/logging/
 """
 # PYTHON IMPORTS
 import os
+from pathlib import Path
 # PROJECT IMPORTS
-from app.local_settings import LOGS_DIR
-
+BASE_DIR = Path(__file__).resolve().parent.parent
+LOGS_DIR = os.path.join(BASE_DIR, "logs")
 
 LOGGING = {
     'version': 1,
