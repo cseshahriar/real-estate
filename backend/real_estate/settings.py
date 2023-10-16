@@ -162,3 +162,12 @@ LOGGING = LOGGING  # app/logging.py
 
 
 AUTH_USER_MODEL = 'accounts.UserAccount'
+
+# email configuration
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.mailtrap.io'
+EMAIL_PORT = 2525
+EMAIL_HOST_USER = 'bcb074c18102bb'
+EMAIL_HOST_PASSWORD = 'a550d019935305'
+EMAIL_USE_TLS = True  # Use TLS for secure connection
+EMAIL_USE_SSL = False  # Don't use SSL
