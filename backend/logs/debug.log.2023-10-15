@@ -1,0 +1,40 @@
+2023-10-15 16:50:00,569 INFO autoreload 31786 140242284974080 Watching for file changes with StatReloader
+2023-10-15 16:50:21,892 INFO autoreload 31786 140242284974080 /home/shosen/projects/real-estate/backend/accounts/models.py changed, reloading.
+2023-10-15 16:50:22,182 INFO autoreload 31842 140286578688000 Watching for file changes with StatReloader
+2023-10-15 16:50:30,403 INFO autoreload 31842 140286578688000 /home/shosen/projects/real-estate/backend/accounts/models.py changed, reloading.
+2023-10-15 16:50:30,668 INFO autoreload 31889 139820876439552 Watching for file changes with StatReloader
+2023-10-15 17:03:14,585 INFO autoreload 31889 139820876439552 /home/shosen/projects/real-estate/backend/accounts/urls.py changed, reloading.
+2023-10-15 17:03:14,943 INFO autoreload 33022 139768254820352 Watching for file changes with StatReloader
+2023-10-15 17:03:32,267 INFO autoreload 33022 139768254820352 /home/shosen/projects/real-estate/backend/real_estate/urls.py changed, reloading.
+2023-10-15 17:03:32,526 INFO autoreload 33091 140690577715200 Watching for file changes with StatReloader
+2023-10-15 17:03:39,763 INFO autoreload 33091 140690577715200 /home/shosen/projects/real-estate/backend/real_estate/urls.py changed, reloading.
+2023-10-15 17:03:40,093 INFO autoreload 33150 140333689270272 Watching for file changes with StatReloader
+2023-10-15 17:04:24,582 INFO autoreload 33150 140333689270272 /home/shosen/projects/real-estate/backend/accounts/urls.py changed, reloading.
+2023-10-15 17:04:24,907 INFO autoreload 33190 140025557274624 Watching for file changes with StatReloader
+2023-10-15 17:04:35,160 INFO autoreload 33190 140025557274624 /home/shosen/projects/real-estate/backend/accounts/urls.py changed, reloading.
+2023-10-15 17:04:35,462 INFO autoreload 33284 140521043460096 Watching for file changes with StatReloader
+2023-10-15 17:04:44,705 INFO autoreload 33284 140521043460096 /home/shosen/projects/real-estate/backend/accounts/urls.py changed, reloading.
+2023-10-15 17:04:45,009 INFO autoreload 33380 139853175103488 Watching for file changes with StatReloader
+2023-10-15 17:05:25,498 INFO autoreload 33380 139853175103488 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-15 17:05:25,763 INFO autoreload 33538 140052476968960 Watching for file changes with StatReloader
+2023-10-15 17:06:12,272 INFO autoreload 33538 140052476968960 /home/shosen/projects/real-estate/backend/accounts/views.py changed, reloading.
+2023-10-15 17:06:12,564 INFO autoreload 33620 140155515576320 Watching for file changes with StatReloader
+2023-10-15 17:06:25,841 INFO autoreload 33620 140155515576320 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-15 17:06:26,081 INFO autoreload 33731 139972879101952 Watching for file changes with StatReloader
+2023-10-15 17:06:33,331 INFO autoreload 33731 139972879101952 /home/shosen/projects/real-estate/backend/accounts/views.py changed, reloading.
+2023-10-15 17:06:33,609 INFO autoreload 33787 139810807885824 Watching for file changes with StatReloader
+2023-10-15 17:06:44,883 INFO autoreload 33787 139810807885824 /home/shosen/projects/real-estate/backend/accounts/views.py changed, reloading.
+2023-10-15 17:06:45,168 INFO autoreload 33883 139824254226432 Watching for file changes with StatReloader
+2023-10-15 17:06:57,434 INFO autoreload 33883 139824254226432 /home/shosen/projects/real-estate/backend/accounts/models.py changed, reloading.
+2023-10-15 17:06:57,676 INFO autoreload 33990 140571080941568 Watching for file changes with StatReloader
+2023-10-15 17:07:06,917 INFO autoreload 33990 140571080941568 /home/shosen/projects/real-estate/backend/accounts/models.py changed, reloading.
+2023-10-15 17:07:07,196 INFO autoreload 34063 140039664025600 Watching for file changes with StatReloader
+2023-10-15 17:07:13,418 INFO autoreload 34063 140039664025600 /home/shosen/projects/real-estate/backend/accounts/models.py changed, reloading.
+2023-10-15 17:07:13,680 INFO autoreload 34107 140532762525696 Watching for file changes with StatReloader
+2023-10-15 17:07:17,898 INFO autoreload 34107 140532762525696 /home/shosen/projects/real-estate/backend/accounts/models.py changed, reloading.
+2023-10-15 17:07:18,145 INFO autoreload 34162 140682183692288 Watching for file changes with StatReloader
+2023-10-15 17:07:23,347 INFO autoreload 34162 140682183692288 /home/shosen/projects/real-estate/backend/accounts/models.py changed, reloading.
+2023-10-15 17:07:23,588 INFO autoreload 34207 139941795549184 Watching for file changes with StatReloader
+2023-10-15 17:10:06,241 WARNING log 34207 139941643286080 Bad Request: /api/accounts/signup/
+2023-10-15 17:10:16,591 WARNING log 34207 139941643286080 Bad Request: /api/accounts/signup/
+2023-10-15 17:10:36,074 WARNING log 34207 139941643286080 Bad Request: /api/accounts/signup/

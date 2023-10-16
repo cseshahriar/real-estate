@@ -16,6 +16,7 @@ urlpatterns = [
         'api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'
     ),
     path('api/accounts/', include('accounts.urls')),
+    path('api/realtors/', include('realtors.urls')),
     path('admin/', admin.site.urls),
 ]
 # add static and media path in url
