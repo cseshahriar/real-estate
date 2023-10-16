@@ -34,7 +34,9 @@ INSTALLED_APPS = [
     # custom apps
     'accounts',
     'realtors',
-
+    'listings',
+    'contacts',
+    'additional',
 ]
 
 MIDDLEWARE = [
