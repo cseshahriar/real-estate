@@ -8,6 +8,7 @@ import Listings from './containers/Listings';
 import ListingsDetails from './containers/ListingsDetails';
 import SignIn from './containers/SignIn';
 import SignUp from './containers/SignUp';
+import NotFound from './components/NotFound';
 
 import Layout  from './hocs/Layout';
 
@@ -21,8 +22,9 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/listings" element={<Listings />} />
           <Route path="/listings/:id" element={<ListingsDetails />} />
-          <Route path="/signin" element={<SignIn />} />
-          <Route path="/signup" element={<SignUp />} />
+          <Route path="/sign-in" element={<SignIn />} />
+          <Route path="/sign-up" element={<SignUp />} />
+          <Route path='*' element={<NotFound />}/>
         </Routes>
       </Layout>
     </Router>

@@ -1,0 +1,736 @@
+2023-10-16 02:42:08,571 INFO autoreload 12072 140706371682304 Watching for file changes with StatReloader
+2023-10-16 02:48:54,890 INFO autoreload 12072 140706371682304 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 02:48:55,162 INFO autoreload 12864 140588274954240 Watching for file changes with StatReloader
+2023-10-16 02:49:30,632 INFO autoreload 12864 140588274954240 /home/shosen/projects/real-estate/backend/real_estate/urls.py changed, reloading.
+2023-10-16 02:49:30,893 INFO autoreload 12988 139873710305280 Watching for file changes with StatReloader
+2023-10-16 02:50:14,538 INFO autoreload 13144 140433519034368 Watching for file changes with StatReloader
+2023-10-16 02:50:21,775 INFO autoreload 13144 140433519034368 /home/shosen/projects/real-estate/backend/real_estate/urls.py changed, reloading.
+2023-10-16 02:50:22,081 INFO autoreload 13213 140529184948224 Watching for file changes with StatReloader
+2023-10-16 02:51:07,630 INFO autoreload 13213 140529184948224 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 02:51:07,911 INFO autoreload 13260 140265590042624 Watching for file changes with StatReloader
+2023-10-16 02:54:09,494 INFO autoreload 13260 140265590042624 /home/shosen/projects/real-estate/backend/realtors/models.py changed, reloading.
+2023-10-16 02:54:09,792 INFO autoreload 13745 139827270209536 Watching for file changes with StatReloader
+2023-10-16 02:54:45,261 INFO autoreload 13745 139827270209536 /home/shosen/projects/real-estate/backend/realtors/admin.py changed, reloading.
+2023-10-16 02:54:45,576 INFO autoreload 14007 140260326191104 Watching for file changes with StatReloader
+2023-10-16 03:03:28,730 INFO autoreload 14007 140260326191104 /home/shosen/projects/real-estate/backend/realtors/urls.py changed, reloading.
+2023-10-16 03:03:29,068 INFO autoreload 15124 140317252190208 Watching for file changes with StatReloader
+2023-10-16 03:03:38,329 INFO autoreload 15124 140317252190208 /home/shosen/projects/real-estate/backend/realtors/urls.py changed, reloading.
+2023-10-16 03:03:38,634 INFO autoreload 15177 140383328075776 Watching for file changes with StatReloader
+2023-10-16 03:03:50,916 INFO autoreload 15177 140383328075776 /home/shosen/projects/real-estate/backend/realtors/urls.py changed, reloading.
+2023-10-16 03:03:51,179 INFO autoreload 15238 140245223616512 Watching for file changes with StatReloader
+2023-10-16 03:04:11,534 INFO autoreload 15238 140245223616512 /home/shosen/projects/real-estate/backend/realtors/admin.py changed, reloading.
+2023-10-16 03:04:11,835 INFO autoreload 15377 140549178052608 Watching for file changes with StatReloader
+2023-10-16 03:04:20,082 INFO autoreload 15377 140549178052608 /home/shosen/projects/real-estate/backend/realtors/admin.py changed, reloading.
+2023-10-16 03:04:20,344 INFO autoreload 15443 139820491382784 Watching for file changes with StatReloader
+2023-10-16 03:04:37,666 INFO autoreload 15443 139820491382784 /home/shosen/projects/real-estate/backend/realtors/admin.py changed, reloading.
+2023-10-16 03:04:37,930 INFO autoreload 15487 139811466960896 Watching for file changes with StatReloader
+2023-10-16 03:04:53,218 INFO autoreload 15487 139811466960896 /home/shosen/projects/real-estate/backend/realtors/admin.py changed, reloading.
+2023-10-16 03:04:53,497 INFO autoreload 15549 140675781193728 Watching for file changes with StatReloader
+2023-10-16 03:05:00,727 INFO autoreload 15549 140675781193728 /home/shosen/projects/real-estate/backend/realtors/admin.py changed, reloading.
+2023-10-16 03:05:00,988 INFO autoreload 15608 139715035033600 Watching for file changes with StatReloader
+2023-10-16 03:05:28,362 INFO autoreload 15608 139715035033600 /home/shosen/projects/real-estate/backend/realtors/admin.py changed, reloading.
+2023-10-16 03:05:28,649 INFO autoreload 15650 139634328494080 Watching for file changes with StatReloader
+2023-10-16 03:05:51,994 INFO autoreload 15650 139634328494080 /home/shosen/projects/real-estate/backend/realtors/admin.py changed, reloading.
+2023-10-16 03:05:52,249 INFO autoreload 15756 140060280446976 Watching for file changes with StatReloader
+2023-10-16 03:06:32,398 ERROR log 15756 140060193191488 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:06:32,745 ERROR log 15756 140060193191488 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:06:51,906 ERROR log 15756 140060193191488 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:06:52,080 ERROR log 15756 140060193191488 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:06:52,713 ERROR log 15756 140060193191488 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:06:52,878 ERROR log 15756 140060193191488 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:07:27,239 ERROR log 15756 140060193191488 Internal Server Error: /manage
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:07:27,431 ERROR log 15756 140060193191488 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:07:33,406 ERROR log 15756 140060193191488 Internal Server Error: /admin
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:07:33,579 ERROR log 15756 140060193191488 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:07:50,949 ERROR log 15756 140060193191488 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:07:53,206 ERROR log 15756 140060193191488 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:08:00,183 ERROR log 15756 140060193191488 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:08:06,396 ERROR log 15756 140060193191488 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:08:45,870 ERROR log 15756 140060193191488 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:15:46,057 INFO autoreload 15756 140060280446976 /home/shosen/projects/real-estate/backend/accounts/models.py changed, reloading.
+2023-10-16 03:15:46,325 INFO autoreload 17308 139913157820416 Watching for file changes with StatReloader
+2023-10-16 03:15:51,556 INFO autoreload 17308 139913157820416 /home/shosen/projects/real-estate/backend/accounts/models.py changed, reloading.
+2023-10-16 03:15:51,877 INFO autoreload 17358 140034475712512 Watching for file changes with StatReloader
+2023-10-16 03:16:28,349 INFO autoreload 17358 140034475712512 /home/shosen/projects/real-estate/backend/accounts/models.py changed, reloading.
+2023-10-16 03:16:28,617 INFO autoreload 17550 140477625880576 Watching for file changes with StatReloader
+2023-10-16 03:19:33,276 INFO make_su 17964 140079174709248 user created admin@me.com
+2023-10-16 03:19:47,697 ERROR log 17550 140477539022400 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:19:54,155 ERROR log 17550 140477539022400 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:20:11,875 ERROR log 17550 140477539022400 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:20:19,051 ERROR log 17550 140477539022400 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:21:36,738 ERROR log 17550 140477290501696 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:21:40,380 ERROR log 17550 140477290501696 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:31:18,010 ERROR log 17550 140477290501696 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:32:05,127 ERROR log 17550 140477290501696 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:32:17,124 ERROR log 17550 140477290501696 Internal Server Error: /api/realtors
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:32:17,478 ERROR log 17550 140477290501696 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:32:34,496 ERROR log 17550 140477290501696 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:33:01,633 ERROR log 17550 140477290501696 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:34:30,763 ERROR log 17550 140477282108992 Internal Server Error: /api/realtors
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:36:41,937 ERROR log 17550 140477282108992 Internal Server Error: /api/realtors
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2023-10-16 03:37:44,805 INFO autoreload 17550 140477625880576 /home/shosen/projects/real-estate/backend/real_estate/urls.py changed, reloading.
+2023-10-16 03:37:45,099 INFO autoreload 19870 139801479323648 Watching for file changes with StatReloader
+2023-10-16 03:38:24,622 INFO autoreload 19870 139801479323648 /home/shosen/projects/real-estate/backend/real_estate/urls.py changed, reloading.
+2023-10-16 03:38:24,862 INFO autoreload 20030 139661133176832 Watching for file changes with StatReloader
+2023-10-16 03:40:49,700 INFO autoreload 21024 140070714798080 Watching for file changes with StatReloader
+2023-10-16 14:14:23,048 INFO autoreload 10308 139934084079616 Watching for file changes with StatReloader
+2023-10-16 14:24:35,128 INFO autoreload 10308 139934084079616 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 14:24:35,400 INFO autoreload 11477 140487278403584 Watching for file changes with StatReloader
+2023-10-16 14:24:39,612 INFO autoreload 11477 140487278403584 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 14:24:39,863 INFO autoreload 11511 140481116405760 Watching for file changes with StatReloader
+2023-10-16 14:24:42,069 INFO autoreload 11511 140481116405760 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 14:24:42,328 INFO autoreload 11534 140417056116736 Watching for file changes with StatReloader
+2023-10-16 14:24:44,548 INFO autoreload 11534 140417056116736 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 14:24:44,832 INFO autoreload 11548 140260022382592 Watching for file changes with StatReloader
+2023-10-16 14:24:49,066 INFO autoreload 11548 140260022382592 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 14:24:49,338 INFO autoreload 11579 140037545111552 Watching for file changes with StatReloader
+2023-10-16 14:24:51,559 INFO autoreload 11579 140037545111552 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 14:24:51,817 INFO autoreload 11608 140466728333312 Watching for file changes with StatReloader
+2023-10-16 14:24:58,065 INFO autoreload 11608 140466728333312 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 14:24:58,347 INFO autoreload 11648 140117627953152 Watching for file changes with StatReloader
+2023-10-16 14:25:12,652 INFO autoreload 11648 140117627953152 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 14:25:12,892 INFO autoreload 11740 139748152721408 Watching for file changes with StatReloader
+2023-10-16 14:25:57,423 INFO autoreload 11740 139748152721408 /home/shosen/projects/real-estate/backend/real_estate/urls.py changed, reloading.
+2023-10-16 14:25:57,683 INFO autoreload 11935 140196377452544 Watching for file changes with StatReloader
+2023-10-16 14:26:15,003 INFO autoreload 11935 140196377452544 /home/shosen/projects/real-estate/backend/real_estate/urls.py changed, reloading.
+2023-10-16 14:26:15,254 INFO autoreload 11989 139830258262016 Watching for file changes with StatReloader
+2023-10-16 14:26:30,552 INFO autoreload 11989 139830258262016 /home/shosen/projects/real-estate/backend/listings/views.py changed, reloading.
+2023-10-16 14:26:30,835 INFO autoreload 12124 139998490152960 Watching for file changes with StatReloader
+2023-10-16 14:26:34,042 INFO autoreload 12124 139998490152960 /home/shosen/projects/real-estate/backend/listings/views.py changed, reloading.
+2023-10-16 14:26:34,337 INFO autoreload 12158 140017748475904 Watching for file changes with StatReloader
+2023-10-16 14:26:38,591 INFO autoreload 12158 140017748475904 /home/shosen/projects/real-estate/backend/listings/views.py changed, reloading.
+2023-10-16 14:26:38,842 INFO autoreload 12193 140360323317760 Watching for file changes with StatReloader
+2023-10-16 14:26:42,102 INFO autoreload 12193 140360323317760 /home/shosen/projects/real-estate/backend/listings/views.py changed, reloading.
+2023-10-16 14:26:42,356 INFO autoreload 12221 140456764198912 Watching for file changes with StatReloader
+2023-10-16 14:26:49,600 INFO autoreload 12221 140456764198912 /home/shosen/projects/real-estate/backend/listings/views.py changed, reloading.
+2023-10-16 14:26:49,851 INFO autoreload 12265 140267243286528 Watching for file changes with StatReloader
+2023-10-16 14:26:54,070 INFO autoreload 12265 140267243286528 /home/shosen/projects/real-estate/backend/listings/views.py changed, reloading.
+2023-10-16 14:26:54,331 INFO autoreload 12308 139906788634624 Watching for file changes with StatReloader
+2023-10-16 14:26:56,553 INFO autoreload 12308 139906788634624 /home/shosen/projects/real-estate/backend/listings/views.py changed, reloading.
+2023-10-16 14:26:56,831 INFO autoreload 12334 140311754956800 Watching for file changes with StatReloader
+2023-10-16 14:27:01,051 INFO autoreload 12334 140311754956800 /home/shosen/projects/real-estate/backend/listings/views.py changed, reloading.
+2023-10-16 14:27:01,311 INFO autoreload 12356 139661019262976 Watching for file changes with StatReloader
+2023-10-16 14:27:04,517 INFO autoreload 12356 139661019262976 /home/shosen/projects/real-estate/backend/listings/views.py changed, reloading.
+2023-10-16 14:27:04,777 INFO autoreload 12409 140237912793088 Watching for file changes with StatReloader
+2023-10-16 14:27:07,987 INFO autoreload 12409 140237912793088 /home/shosen/projects/real-estate/backend/listings/views.py changed, reloading.
+2023-10-16 14:27:08,233 INFO autoreload 12443 140399695069184 Watching for file changes with StatReloader
+2023-10-16 14:27:09,445 INFO autoreload 12443 140399695069184 /home/shosen/projects/real-estate/backend/listings/views.py changed, reloading.
+2023-10-16 14:27:09,716 INFO autoreload 12455 140379211960320 Watching for file changes with StatReloader
+2023-10-16 14:27:15,965 INFO autoreload 12455 140379211960320 /home/shosen/projects/real-estate/backend/listings/views.py changed, reloading.
+2023-10-16 14:27:16,237 INFO autoreload 12490 140037208190976 Watching for file changes with StatReloader
+2023-10-16 14:27:32,559 INFO autoreload 12490 140037208190976 /home/shosen/projects/real-estate/backend/listings/views.py changed, reloading.
+2023-10-16 14:27:32,854 INFO autoreload 12563 140326700216320 Watching for file changes with StatReloader
+2023-10-16 14:27:36,081 INFO autoreload 12563 140326700216320 /home/shosen/projects/real-estate/backend/listings/views.py changed, reloading.
+2023-10-16 14:27:36,346 INFO autoreload 12597 139852395786240 Watching for file changes with StatReloader
+2023-10-16 14:27:38,541 INFO autoreload 12597 139852395786240 /home/shosen/projects/real-estate/backend/listings/views.py changed, reloading.
+2023-10-16 14:27:38,795 INFO autoreload 12619 139894512033792 Watching for file changes with StatReloader
+2023-10-16 14:27:55,118 INFO autoreload 12619 139894512033792 /home/shosen/projects/real-estate/backend/listings/views.py changed, reloading.
+2023-10-16 14:27:55,404 INFO autoreload 12680 139737494016000 Watching for file changes with StatReloader
+2023-10-16 14:27:58,626 INFO autoreload 12680 139737494016000 /home/shosen/projects/real-estate/backend/real_estate/urls.py changed, reloading.
+2023-10-16 14:27:58,880 INFO autoreload 12718 139625718456320 Watching for file changes with StatReloader
+2023-10-16 14:28:23,280 INFO autoreload 12718 139625718456320 /home/shosen/projects/real-estate/backend/listings/serializers.py changed, reloading.
+2023-10-16 14:28:23,563 INFO autoreload 12890 139944000585728 Watching for file changes with StatReloader
+2023-10-16 14:28:36,874 INFO autoreload 12890 139944000585728 /home/shosen/projects/real-estate/backend/listings/serializers.py changed, reloading.
+2023-10-16 14:28:37,152 INFO autoreload 12950 140609029316608 Watching for file changes with StatReloader
+2023-10-16 14:28:45,441 INFO autoreload 12950 140609029316608 /home/shosen/projects/real-estate/backend/listings/models.py changed, reloading.
+2023-10-16 14:28:45,689 INFO autoreload 13035 140429935988736 Watching for file changes with StatReloader
+2023-10-16 14:28:53,955 INFO autoreload 13035 140429935988736 /home/shosen/projects/real-estate/backend/listings/models.py changed, reloading.
+2023-10-16 14:28:54,219 INFO autoreload 13129 139858738376704 Watching for file changes with StatReloader
+2023-10-16 14:28:56,443 INFO autoreload 13129 139858738376704 /home/shosen/projects/real-estate/backend/listings/models.py changed, reloading.
+2023-10-16 14:28:56,735 INFO autoreload 13163 139637533814784 Watching for file changes with StatReloader
+2023-10-16 14:28:58,933 INFO autoreload 13163 139637533814784 /home/shosen/projects/real-estate/backend/listings/models.py changed, reloading.
+2023-10-16 14:28:59,212 INFO autoreload 13174 140049625317376 Watching for file changes with StatReloader
+2023-10-16 14:29:02,439 INFO autoreload 13174 140049625317376 /home/shosen/projects/real-estate/backend/listings/models.py changed, reloading.
+2023-10-16 14:29:02,691 INFO autoreload 13206 140472176820224 Watching for file changes with StatReloader
+2023-10-16 14:29:11,953 INFO autoreload 13206 140472176820224 /home/shosen/projects/real-estate/backend/listings/admin.py changed, reloading.
+2023-10-16 14:29:12,202 INFO autoreload 13273 140412579524608 Watching for file changes with StatReloader
+2023-10-16 14:29:23,478 INFO autoreload 13273 140412579524608 /home/shosen/projects/real-estate/backend/listings/admin.py changed, reloading.
+2023-10-16 14:29:23,750 INFO autoreload 13388 139681265754112 Watching for file changes with StatReloader
+2023-10-16 14:29:25,954 INFO autoreload 13388 139681265754112 /home/shosen/projects/real-estate/backend/listings/admin.py changed, reloading.
+2023-10-16 14:29:26,207 INFO autoreload 13420 139834833215488 Watching for file changes with StatReloader
+2023-10-16 14:29:29,413 INFO autoreload 13420 139834833215488 /home/shosen/projects/real-estate/backend/listings/admin.py changed, reloading.
+2023-10-16 14:29:29,703 INFO autoreload 13431 140064246177792 Watching for file changes with StatReloader
+2023-10-16 14:29:44,013 INFO autoreload 13431 140064246177792 /home/shosen/projects/real-estate/backend/contacts/views.py changed, reloading.
+2023-10-16 14:29:44,296 INFO autoreload 13533 140180272934912 Watching for file changes with StatReloader
+2023-10-16 14:29:46,528 INFO autoreload 13533 140180272934912 /home/shosen/projects/real-estate/backend/contacts/views.py changed, reloading.
+2023-10-16 14:29:46,801 INFO autoreload 13564 139719941435392 Watching for file changes with StatReloader
+2023-10-16 14:29:54,045 INFO autoreload 13564 139719941435392 /home/shosen/projects/real-estate/backend/contacts/views.py changed, reloading.
+2023-10-16 14:29:54,351 INFO autoreload 13613 140394993790976 Watching for file changes with StatReloader
+2023-10-16 14:29:58,593 INFO autoreload 13613 140394993790976 /home/shosen/projects/real-estate/backend/contacts/views.py changed, reloading.
+2023-10-16 14:29:58,878 INFO autoreload 13646 140036340723712 Watching for file changes with StatReloader
+2023-10-16 14:30:02,095 INFO autoreload 13646 140036340723712 /home/shosen/projects/real-estate/backend/contacts/views.py changed, reloading.
+2023-10-16 14:30:02,337 INFO autoreload 13681 140605244948480 Watching for file changes with StatReloader
+2023-10-16 14:30:21,673 INFO autoreload 13681 140605244948480 /home/shosen/projects/real-estate/backend/contacts/views.py changed, reloading.
+2023-10-16 14:30:21,924 INFO autoreload 13763 140623884222464 Watching for file changes with StatReloader
+2023-10-16 14:30:44,281 INFO autoreload 13763 140623884222464 /home/shosen/projects/real-estate/backend/contacts/views.py changed, reloading.
+2023-10-16 14:30:44,560 INFO autoreload 13833 139918717997056 Watching for file changes with StatReloader
+2023-10-16 14:30:46,780 INFO autoreload 13833 139918717997056 /home/shosen/projects/real-estate/backend/contacts/views.py changed, reloading.
+2023-10-16 14:30:47,065 INFO autoreload 13870 140527320510464 Watching for file changes with StatReloader
+2023-10-16 14:31:23,549 INFO autoreload 13870 140527320510464 /home/shosen/projects/real-estate/backend/contacts/views.py changed, reloading.
+2023-10-16 14:31:23,821 INFO autoreload 14027 139703949336576 Watching for file changes with StatReloader
+2023-10-16 14:31:45,229 INFO autoreload 14027 139703949336576 /home/shosen/projects/real-estate/backend/contacts/models.py changed, reloading.
+2023-10-16 14:31:45,532 INFO autoreload 14222 140106756038656 Watching for file changes with StatReloader
+2023-10-16 14:31:51,795 INFO autoreload 14222 140106756038656 /home/shosen/projects/real-estate/backend/contacts/admin.py changed, reloading.
+2023-10-16 14:31:52,059 INFO autoreload 14329 140300232372224 Watching for file changes with StatReloader
+2023-10-16 14:31:54,289 INFO autoreload 14329 140300232372224 /home/shosen/projects/real-estate/backend/contacts/admin.py changed, reloading.
+2023-10-16 14:31:54,594 INFO autoreload 14357 140306354282496 Watching for file changes with StatReloader
+2023-10-16 14:32:03,857 INFO autoreload 14357 140306354282496 /home/shosen/projects/real-estate/backend/contacts/admin.py changed, reloading.
+2023-10-16 14:32:04,134 INFO autoreload 14449 140448588652544 Watching for file changes with StatReloader
+2023-10-16 15:41:49,269 WARNING log 14449 140448114931264 Unauthorized: /api/listings/830-Twin-House-Lane
+2023-10-16 15:42:41,971 WARNING log 14449 140448501855808 Forbidden (CSRF cookie not set.): /api/accounts/login
+2023-10-16 15:42:56,483 WARNING log 14449 140448501855808 Forbidden (CSRF cookie not set.): /api/accounts/login/
+2023-10-16 15:43:26,890 WARNING log 14449 140448501855808 Unauthorized: /api/token/
+2023-10-16 15:43:45,303 WARNING log 14449 140448501855808 Unauthorized: /api/token/
+2023-10-16 15:44:25,897 WARNING log 14449 140448501855808 Unauthorized: /api/token/
+2023-10-16 15:44:38,584 WARNING log 14449 140448501855808 Unauthorized: /api/token/
+2023-10-16 15:45:20,561 WARNING log 14449 140448501855808 Unauthorized: /api/token/
+2023-10-16 15:45:37,515 WARNING log 14449 140448501855808 Bad Request: /api/accounts/signup/
+2023-10-16 15:46:05,693 WARNING log 14449 140448501855808 Unauthorized: /api/token/
+2023-10-16 15:46:23,622 WARNING log 14449 140448501855808 Forbidden (CSRF cookie not set.): /api-auth/
+2023-10-16 15:46:26,369 WARNING log 14449 140448501855808 Forbidden (CSRF cookie not set.): /api-auth/
+2023-10-16 15:46:58,131 WARNING log 14449 140448501855808 Unauthorized: /api/token/
+2023-10-16 15:47:25,237 WARNING log 14449 140448501855808 Unauthorized: /api/token/
+2023-10-16 15:51:36,085 WARNING log 14449 140448114931264 Not Found: /api/listings/830-Twin-House-Lane
+2023-10-16 16:00:56,906 WARNING log 14449 140448114931264 Method Not Allowed: /api/listings/search
+2023-10-16 16:01:25,203 WARNING log 14449 140448114931264 Unsupported Media Type: /api/listings/search
+2023-10-16 16:01:39,718 ERROR log 14449 140448114931264 Internal Server Error: /api/listings/search
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/shosen/projects/real-estate/backend/listings/views.py", line 35, in post
+    price = data['price']
+KeyError: 'price'
+2023-10-16 16:01:56,351 WARNING log 14449 140448114931264 Bad Request: /api/listings/search
+2023-10-16 16:02:15,200 ERROR log 14449 140448114931264 Internal Server Error: /api/listings/search
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/shosen/projects/real-estate/backend/listings/views.py", line 58, in post
+    bedrooms = data['bedrooms']
+KeyError: 'bedrooms'
+2023-10-16 16:02:25,165 ERROR log 14449 140448114931264 Internal Server Error: /api/listings/search
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/shosen/projects/real-estate/backend/listings/views.py", line 74, in post
+    home_type = data['home_type']
+KeyError: 'home_type'
+2023-10-16 16:02:35,270 WARNING log 14449 140448114931264 Bad Request: /api/listings/search
+2023-10-16 16:05:57,583 ERROR log 14449 140448114931264 Internal Server Error: /api/listings/search
+Traceback (most recent call last):
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/shosen/projects/real-estate/backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/shosen/projects/real-estate/backend/listings/views.py", line 77, in post
+    bathrooms = data['bathrooms']
+KeyError: 'bathrooms'
+2023-10-16 16:33:08,024 INFO autoreload 14449 140448588652544 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 16:33:08,318 INFO autoreload 25209 140319181082624 Watching for file changes with StatReloader
+2023-10-16 16:33:11,537 INFO autoreload 25209 140319181082624 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 16:33:11,781 INFO autoreload 25245 139936883064832 Watching for file changes with StatReloader
+2023-10-16 16:33:13,981 INFO autoreload 25245 139936883064832 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 16:33:14,260 INFO autoreload 25265 139827016925184 Watching for file changes with StatReloader
+2023-10-16 16:33:22,502 INFO autoreload 25265 139827016925184 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 16:33:22,779 INFO autoreload 25319 140142433529856 Watching for file changes with StatReloader
+2023-10-16 16:33:26,011 INFO autoreload 25319 140142433529856 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 16:33:26,256 INFO autoreload 25356 140680207089664 Watching for file changes with StatReloader
+2023-10-16 16:40:02,446 WARNING log 25356 140680043165248 Method Not Allowed: /api/contacts/
+2023-10-16 16:45:50,116 INFO autoreload 25356 140680207089664 /home/shosen/projects/real-estate/backend/contacts/views.py changed, reloading.
+2023-10-16 16:45:50,434 INFO autoreload 26202 139865980551168 Watching for file changes with StatReloader
+2023-10-16 16:46:36,069 INFO autoreload 26202 139865980551168 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 16:46:36,334 INFO autoreload 26364 140701168209920 Watching for file changes with StatReloader
+2023-10-16 16:47:06,770 INFO autoreload 26364 140701168209920 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 16:47:07,054 INFO autoreload 26463 139814157795328 Watching for file changes with StatReloader
+2023-10-16 16:47:22,353 INFO autoreload 26463 139814157795328 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 16:47:22,644 INFO autoreload 26512 140235703824384 Watching for file changes with StatReloader
+2023-10-16 16:47:34,936 INFO autoreload 26512 140235703824384 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 16:47:35,219 INFO autoreload 26578 140538793517056 Watching for file changes with StatReloader
+2023-10-16 16:47:39,442 INFO autoreload 26578 140538793517056 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 16:47:39,691 INFO autoreload 26620 139748807946240 Watching for file changes with StatReloader
+2023-10-16 16:50:30,235 INFO autoreload 26620 139748807946240 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 16:50:30,514 INFO autoreload 26922 140671374528512 Watching for file changes with StatReloader
+2023-10-16 16:50:59,970 INFO autoreload 26922 140671374528512 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 16:51:00,254 INFO autoreload 27072 140528423874560 Watching for file changes with StatReloader
+2023-10-16 16:51:17,626 INFO autoreload 27072 140528423874560 /home/shosen/projects/real-estate/backend/contacts/views.py changed, reloading.
+2023-10-16 16:51:17,875 INFO autoreload 27167 140610573168640 Watching for file changes with StatReloader
+2023-10-16 16:52:09,514 INFO autoreload 27167 140610573168640 /home/shosen/projects/real-estate/backend/contacts/views.py changed, reloading.
+2023-10-16 16:52:09,770 INFO autoreload 27358 140215541616640 Watching for file changes with StatReloader
+2023-10-16 16:53:38,689 INFO autoreload 27358 140215541616640 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 16:53:38,964 INFO autoreload 27549 139857895260160 Watching for file changes with StatReloader
+2023-10-16 16:53:45,216 INFO autoreload 27549 139857895260160 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-16 16:53:45,487 INFO autoreload 27608 139655412858880 Watching for file changes with StatReloader
+2023-10-16 16:55:59,721 INFO autoreload 27608 139655412858880 /home/shosen/projects/real-estate/backend/contacts/views.py changed, reloading.
+2023-10-16 16:55:59,989 INFO autoreload 27848 140642757541888 Watching for file changes with StatReloader
+2023-10-16 16:56:17,312 INFO autoreload 27848 140642757541888 /home/shosen/projects/real-estate/backend/contacts/views.py changed, reloading.
+2023-10-16 16:56:17,567 INFO autoreload 27917 139678616649728 Watching for file changes with StatReloader
+2023-10-16 16:56:42,948 INFO autoreload 27917 139678616649728 /home/shosen/projects/real-estate/backend/contacts/views.py changed, reloading.
+2023-10-16 16:56:43,234 INFO autoreload 27999 140035023577088 Watching for file changes with StatReloader
+2023-10-16 16:57:24,780 INFO autoreload 27999 140035023577088 /home/shosen/projects/real-estate/backend/contacts/views.py changed, reloading.
+2023-10-16 16:57:25,056 INFO autoreload 28131 140714892038144 Watching for file changes with StatReloader
+2023-10-16 16:58:28,752 INFO autoreload 28131 140714892038144 /home/shosen/projects/real-estate/backend/contacts/views.py changed, reloading.
+2023-10-16 16:58:29,029 INFO autoreload 28325 140675687124992 Watching for file changes with StatReloader
+2023-10-16 16:59:09,539 INFO autoreload 28325 140675687124992 /home/shosen/projects/real-estate/backend/contacts/views.py changed, reloading.
+2023-10-16 16:59:09,795 INFO autoreload 28465 139629622763520 Watching for file changes with StatReloader
+2023-10-16 16:59:36,237 INFO autoreload 28465 139629622763520 /home/shosen/projects/real-estate/backend/contacts/views.py changed, reloading.
+2023-10-16 16:59:36,512 INFO autoreload 28557 139733357826048 Watching for file changes with StatReloader
