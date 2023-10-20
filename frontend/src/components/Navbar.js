@@ -7,6 +7,8 @@ import PropTypes from 'prop-types';
 
 
 const navbar = ({auth: {isAuthenticated, loading}, logout}) => {
+  console.log('isAuthenticated', isAuthenticated);
+  console.log('loading', loading);
   const authLinks = (
     <a className='navbar__top__auth__link' onClick={logout} href='#!'>Logout</a>
   );
@@ -14,7 +16,7 @@ const navbar = ({auth: {isAuthenticated, loading}, logout}) => {
   const guestLinks = (
     <Fragment>
       <Link className='navbar__top__auth__link' to='/login'>Login</Link>
-      <Link className='navbar__top__auth__link' to='/signup'>Sign Up</Link>
+      <Link className='navbar__top__auth__link' to='/signup'>Register</Link>
     </Fragment>
   );
 
@@ -33,16 +35,16 @@ const navbar = ({auth: {isAuthenticated, loading}, logout}) => {
 
         <div className='navbar__bottom'>
           <li className='navbar__bottom__item'>
-            <NavLink className='navbar__bottom__item__link' exact to='/'>Home</NavLink>
+            <NavLink className='navbar__bottom__item__link' to='/'>Home</NavLink>
           </li>
           <li className='navbar__bottom__item'>
-            <NavLink className='navbar__bottom__item__link' exact to='/listings'>Listings</NavLink>
+            <NavLink className='navbar__bottom__item__link' to='/listings'>Listings</NavLink>
           </li>
           <li className='navbar__bottom__item'>
-            <NavLink className='navbar__bottom__item__link' exact to='/about'>About</NavLink>
+            <NavLink className='navbar__bottom__item__link' to='/about'>About</NavLink>
           </li>
           <li className='navbar__bottom__item'>
-            <NavLink className='navbar__bottom__item__link' exact to='/contact'>Contact</NavLink>
+            <NavLink className='navbar__bottom__item__link' to='/contact'>Contact</NavLink>
           </li>
         </div>
       </nav>
