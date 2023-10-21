@@ -15,10 +15,7 @@ SECRET_KEY = 'django-insecure-oddr2ssj@-!jo^03)^4f=ij3k1#aar=qyg$t9%6=$#n1e&1fcs
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    "localhost", "127.0.0.1"
-]
-
+ALLOWED_HOSTS = ["*", "localhost"]
 
 # Application definition
 
@@ -30,9 +27,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # third party
-    'rest_framework',
     'corsheaders',
-    'rest_framework_simplejwt',
+    'rest_framework',
 
     # custom apps
     'accounts',
@@ -45,12 +41,12 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
 ROOT_URLCONF = 'real_estate.urls'
@@ -147,20 +143,17 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework_simplejwt.authentication.JWTAuthentication'
     ],
-    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',  # noqa
     'PAGE_SIZE': 3
 }
-
 # cors headers
 CORS_ORIGIN_ALLOW_ALL = True
-
+CSRF_TRUSTED_ORIGINS = ["http://127.0.0.1:3000"]
 # file permission
 FILE_UPLOAD_PERMISSIONS = 0o640
 
-
 # loggings
 LOGGING = LOGGING  # app/logging.py
-
 
 AUTH_USER_MODEL = 'accounts.UserAccount'
 

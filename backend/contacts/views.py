@@ -2,9 +2,8 @@ from rest_framework import permissions
 from rest_framework.views import APIView
 from django.core.mail import send_mail
 from django.conf import settings
-from .models import Contact
+from .models import Contact  # noqa
 from rest_framework.response import Response
-
 
 
 class ContactCreateView(APIView):
@@ -13,19 +12,19 @@ class ContactCreateView(APIView):
     def post(self, request, format=None):
         data = self.request.data
         try:
-            name =  data['name']
-            subject =  data['subject']
+            name = data['name']
+            subject = data['subject']
             message = data['message']
             from_email = settings.EMAIL_HOST_USER
             recipient_list = [data['email']]
             send_mail(
-                subject,
-                'Name: '
-                + name
-                + '\nEmail: '
-                + data['email']
-                + '\n\nMessage:\n'
-                + message,
+                subject,  # noqa
+                'Name: '  # noqa
+                + name  # noqa
+                + '\nEmail: '  # noqa
+                + data['email']  # noqa
+                + '\n\nMessage:\n' # noqa
+                + message,  # noqa
                 from_email,
                 recipient_list,  # noqa
                 fail_silently=False

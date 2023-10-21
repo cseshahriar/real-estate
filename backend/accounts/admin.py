@@ -72,7 +72,6 @@ class LogEntryAdmin(admin.ModelAdmin):
     object_link.short_description = "object"
 
 
-
 @admin.register(UserAccount)
 class UserAdmin(UserAdmin):
     """Admin for User model"""
