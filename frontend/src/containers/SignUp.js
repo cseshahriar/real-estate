@@ -92,7 +92,7 @@ const SignUp = ({setAlert, signup, isAuthenticated}) => {
             />
           </div>
 
-          <button type='submit' className='auth__form__button'>Register</button>
+          <button className='auth__form__button'>Register</button>
       </form>
       <p className='auth__authtext'>
         Did you have an account? 
@@ -112,4 +112,4 @@ const mapStateToProps = state => ({
   isAuthenticated: state.auth.isAuthenticated
 });
 
-export default connect(mapStateToProps, {signup})(SignUp);
+export default connect(mapStateToProps, {setAlert, signup})(SignUp);

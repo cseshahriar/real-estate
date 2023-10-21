@@ -1,0 +1,107 @@
+2023-10-20 15:02:32,900 INFO autoreload 10066 140549323603968 Watching for file changes with StatReloader
+2023-10-20 16:20:10,590 WARNING log 10066 140549236454976 Unauthorized: /api/token/
+2023-10-20 16:20:18,284 WARNING log 10066 140549236454976 Unauthorized: /api/token/
+2023-10-20 16:21:04,568 WARNING log 10066 140549236454976 Unauthorized: /api/token/
+2023-10-20 16:21:15,673 WARNING log 10066 140549236454976 Unauthorized: /api/token/
+2023-10-20 16:21:29,766 WARNING log 10066 140549236454976 Unauthorized: /api/token/
+2023-10-20 16:27:40,359 WARNING log 10066 140549236454976 Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /api/accounts/signup
+2023-10-20 16:27:48,951 WARNING log 10066 140549236454976 Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /api/accounts/signup
+2023-10-20 16:30:34,438 INFO autoreload 10066 140549323603968 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 16:30:34,962 INFO autoreload 22111 140407331295232 Watching for file changes with StatReloader
+2023-10-20 16:30:42,836 WARNING log 22111 140407174329920 Forbidden (CSRF cookie not set.): /api/accounts/signup
+2023-10-20 16:30:55,595 INFO autoreload 22111 140407331295232 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 16:30:56,139 INFO autoreload 22191 140664311853056 Watching for file changes with StatReloader
+2023-10-20 16:40:24,246 INFO autoreload 22191 140664311853056 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 16:40:24,688 INFO autoreload 22714 139806117982208 Watching for file changes with StatReloader
+2023-10-20 16:40:31,823 WARNING log 22714 139806030952000 Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /api/accounts/signup
+2023-10-20 16:40:49,743 INFO autoreload 22796 139805188038656 Watching for file changes with StatReloader
+2023-10-20 16:40:53,053 INFO autoreload 22796 139805188038656 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 16:40:54,052 INFO autoreload 22828 140284035923968 Watching for file changes with StatReloader
+2023-10-20 16:40:56,513 WARNING log 22828 140283948824128 Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /api/accounts/signup
+2023-10-20 16:41:48,046 INFO autoreload 22828 140284035923968 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 16:41:48,514 INFO autoreload 22924 140001571057664 Watching for file changes with StatReloader
+2023-10-20 16:41:52,526 WARNING log 22924 140001483421248 Forbidden (CSRF cookie not set.): /api/accounts/signup
+2023-10-20 16:43:32,024 INFO autoreload 22924 140001571057664 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 16:43:32,615 INFO autoreload 23224 140471612911616 Watching for file changes with StatReloader
+2023-10-20 16:43:37,001 INFO autoreload 23224 140471612911616 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 16:43:37,478 INFO autoreload 23263 140107034497024 Watching for file changes with StatReloader
+2023-10-20 16:43:43,799 INFO autoreload 23263 140107034497024 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 16:43:44,432 INFO autoreload 23316 140605053874176 Watching for file changes with StatReloader
+2023-10-20 16:45:37,939 WARNING log 23316 140604957779520 Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /api/accounts/signup
+2023-10-20 16:47:09,087 INFO autoreload 23316 140605053874176 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 16:47:09,550 INFO autoreload 23689 140005167738880 Watching for file changes with StatReloader
+2023-10-20 16:47:12,502 WARNING log 23689 140005080036928 Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /api/accounts/signup
+2023-10-20 16:51:28,675 INFO autoreload 23689 140005167738880 /home/shosen/projects/real-estate/backend/accounts/views.py changed, reloading.
+2023-10-20 16:51:29,528 INFO autoreload 24024 140176117952512 Watching for file changes with StatReloader
+2023-10-20 16:51:51,142 INFO autoreload 24024 140176117952512 /home/shosen/projects/real-estate/backend/accounts/views.py changed, reloading.
+2023-10-20 16:51:51,589 INFO autoreload 24098 139929240276992 Watching for file changes with StatReloader
+2023-10-20 16:52:20,123 INFO autoreload 24098 139929240276992 /home/shosen/projects/real-estate/backend/accounts/views.py changed, reloading.
+2023-10-20 16:52:20,808 INFO autoreload 24182 140250331639808 Watching for file changes with StatReloader
+2023-10-20 16:52:46,423 INFO autoreload 24182 140250331639808 /home/shosen/projects/real-estate/backend/accounts/views.py changed, reloading.
+2023-10-20 16:52:46,955 INFO autoreload 24246 140707839922176 Watching for file changes with StatReloader
+2023-10-20 16:53:40,722 INFO autoreload 24246 140707839922176 /home/shosen/projects/real-estate/backend/accounts/views.py changed, reloading.
+2023-10-20 16:53:41,521 INFO autoreload 24302 139668220223488 Watching for file changes with StatReloader
+2023-10-20 16:53:50,847 INFO autoreload 24302 139668220223488 /home/shosen/projects/real-estate/backend/accounts/views.py changed, reloading.
+2023-10-20 16:53:51,382 INFO autoreload 24429 139656193970176 Watching for file changes with StatReloader
+2023-10-20 16:53:53,574 WARNING log 24429 139656106604096 Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /api/accounts/signup
+2023-10-20 16:54:01,835 INFO autoreload 24429 139656193970176 /home/shosen/projects/real-estate/backend/accounts/views.py changed, reloading.
+2023-10-20 16:54:03,376 INFO autoreload 24494 139942499590144 Watching for file changes with StatReloader
+2023-10-20 16:54:10,681 INFO autoreload 24494 139942499590144 /home/shosen/projects/real-estate/backend/accounts/views.py changed, reloading.
+2023-10-20 16:54:11,720 INFO autoreload 24567 140691346288640 Watching for file changes with StatReloader
+2023-10-20 16:57:27,918 WARNING log 24567 140691259782720 Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /api/accounts/signup
+2023-10-20 17:00:07,385 WARNING log 24567 140691259782720 Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /api/accounts/signup
+2023-10-20 17:00:28,274 WARNING log 24567 140691259782720 Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /api/accounts/signup
+2023-10-20 17:01:02,035 WARNING log 24567 140691259782720 Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /api/accounts/signup
+2023-10-20 17:03:39,286 INFO autoreload 24567 140691346288640 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 17:03:39,653 INFO autoreload 26007 140163665653760 Watching for file changes with StatReloader
+2023-10-20 17:03:43,903 INFO autoreload 26007 140163665653760 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 17:03:44,418 INFO autoreload 26038 139748347125760 Watching for file changes with StatReloader
+2023-10-20 17:03:51,089 INFO autoreload 26071 140586849898496 Watching for file changes with StatReloader
+2023-10-20 17:04:18,259 WARNING log 26071 140586694735424 Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /api/accounts/signup
+2023-10-20 17:04:35,867 INFO autoreload 26071 140586849898496 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 17:04:36,538 INFO autoreload 26198 140599687016448 Watching for file changes with StatReloader
+2023-10-20 17:04:51,946 INFO autoreload 26198 140599687016448 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 17:04:53,135 INFO autoreload 26286 140292057137152 Watching for file changes with StatReloader
+2023-10-20 17:05:19,871 INFO autoreload 26286 140292057137152 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 17:05:20,268 INFO autoreload 26418 139891549675520 Watching for file changes with StatReloader
+2023-10-20 17:05:34,684 INFO autoreload 26418 139891549675520 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 17:05:35,172 INFO autoreload 26474 140662695940096 Watching for file changes with StatReloader
+2023-10-20 17:05:54,666 WARNING log 26474 140662608492096 Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /api/accounts/signup
+2023-10-20 17:06:34,561 WARNING log 26474 140662608492096 Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /api/accounts/signup
+2023-10-20 17:08:52,678 INFO autoreload 26474 140662695940096 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 17:08:53,079 INFO autoreload 26811 140413253369856 Watching for file changes with StatReloader
+2023-10-20 17:09:03,491 INFO autoreload 26811 140413253369856 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 17:09:03,934 INFO autoreload 26921 140050620051456 Watching for file changes with StatReloader
+2023-10-20 17:09:35,410 WARNING log 26921 140050533709376 Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /api/accounts/signup
+2023-10-20 17:09:40,315 INFO autoreload 27010 140390285398016 Watching for file changes with StatReloader
+2023-10-20 17:10:28,168 INFO autoreload 27010 140390285398016 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 17:10:28,598 INFO autoreload 27149 140507146473472 Watching for file changes with StatReloader
+2023-10-20 17:10:47,062 INFO autoreload 27149 140507146473472 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 17:10:47,533 INFO autoreload 27204 140447016542208 Watching for file changes with StatReloader
+2023-10-20 17:10:50,577 WARNING log 27204 140446928991808 Forbidden (CSRF cookie not set.): /api/accounts/signup
+2023-10-20 17:11:00,164 INFO autoreload 27204 140447016542208 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 17:11:01,298 INFO autoreload 27286 139972579008512 Watching for file changes with StatReloader
+2023-10-20 17:11:16,477 WARNING log 27286 139972492392000 Forbidden (CSRF cookie not set.): /api/accounts/signup
+2023-10-20 17:11:31,054 INFO autoreload 27286 139972579008512 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 17:11:31,463 INFO autoreload 27374 140272473313280 Watching for file changes with StatReloader
+2023-10-20 17:12:09,318 INFO autoreload 27374 140272473313280 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 17:12:09,823 INFO autoreload 27467 139940930392064 Watching for file changes with StatReloader
+2023-10-20 17:12:18,194 INFO autoreload 27467 139940930392064 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 17:12:18,685 INFO autoreload 27528 139955652149248 Watching for file changes with StatReloader
+2023-10-20 17:12:24,014 INFO autoreload 27528 139955652149248 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 17:12:24,488 INFO autoreload 27570 140321184169984 Watching for file changes with StatReloader
+2023-10-20 17:12:26,656 WARNING log 27570 140321096726080 Forbidden (CSRF cookie not set.): /api/accounts/signup
+2023-10-20 17:12:31,910 WARNING log 27570 140321096726080 Forbidden (CSRF cookie not set.): /api/accounts/signup
+2023-10-20 17:12:42,004 WARNING log 27570 140321096726080 Forbidden (CSRF cookie not set.): /api/accounts/signup
+2023-10-20 17:13:13,452 INFO autoreload 27570 140321184169984 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 17:13:13,914 INFO autoreload 27733 140268477792256 Watching for file changes with StatReloader
+2023-10-20 17:13:17,670 WARNING log 27733 140268390053440 Forbidden (CSRF cookie not set.): /api/accounts/signup
+2023-10-20 17:13:24,902 INFO autoreload 27784 140033843884032 Watching for file changes with StatReloader
+2023-10-20 17:13:27,063 WARNING log 27784 140033756493376 Forbidden (CSRF cookie not set.): /api/accounts/signup
+2023-10-20 17:13:40,457 INFO autoreload 27784 140033843884032 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 17:13:40,932 INFO autoreload 27848 139668741390336 Watching for file changes with StatReloader
+2023-10-20 17:13:52,291 INFO autoreload 27848 139668741390336 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 17:13:53,296 INFO autoreload 27908 140702099783680 Watching for file changes with StatReloader
+2023-10-20 17:14:06,903 INFO autoreload 27985 140094086447104 Watching for file changes with StatReloader
+2023-10-20 17:14:41,594 INFO autoreload 27985 140094086447104 /home/shosen/projects/real-estate/backend/real_estate/settings.py changed, reloading.
+2023-10-20 17:14:42,918 INFO autoreload 28030 140147265941504 Watching for file changes with StatReloader

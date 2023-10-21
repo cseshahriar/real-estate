@@ -8,8 +8,6 @@ import {
     LOGOUT
 } from './types';
 
-axios.defaults.withCredentials = true;
-
 // Login User action
 export const login = (email, password) => async dispatch => {
     const config = {
