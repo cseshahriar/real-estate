@@ -6,7 +6,7 @@ import Home from './containers/Home';
 import About from './containers/About';
 import Contact from './containers/Contact';
 import Listings from './containers/Listings';
-import ListingsDetails from './containers/ListingsDetails';
+import ListingDetail from './containers/ListingDetail';
 import SignIn from './containers/SignIn';
 import SignUp from './containers/SignUp';
 import NotFound from './components/NotFound';
@@ -27,7 +27,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/listings" element={<Listings />} />
-          <Route path="/listings/:id" element={<ListingsDetails />} />
+          <Route path="/listings/:id" element={<ListingDetail />} />
           <Route path="/login" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path='*' element={<NotFound />}/>
