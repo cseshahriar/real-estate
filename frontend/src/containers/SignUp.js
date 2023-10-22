@@ -25,7 +25,7 @@ const SignUp = ({setAlert, signup, isAuthenticated}) => {
     if(password !== password2) {
       setAlert('Password do not match', 'error');
     } else {
-      signup(name, email, password);
+      signup({ name, email, password, password2 });
     }
   }
 

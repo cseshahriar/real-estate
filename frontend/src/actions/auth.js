@@ -23,8 +23,9 @@ export const login = (email, password) => async dispatch => {
         dispatch({type: LOGIN_SUCCESS, payload: response.data});
         dispatch(setAlert('Authenticated successfully', 'success'));
     } catch (err) {
+        let message = err.response.data.detail;
         dispatch({type: LOGIN_FAIL});
-        dispatch(setAlert('Error Authenticating', 'error'));
+        dispatch(setAlert(message, 'error'));
     }
 };
 
@@ -36,10 +37,12 @@ export const signup = ({ name, email, password, password2 }) => async dispatch =
             'Content-Type': 'application/json'
         }
     }
-    const body = JSON.stringify({ name, email, password, password2 }); 
+    const body = JSON.stringify({name, email, password, password2 }); 
     try {
         const res = await axios.post(
-            `${process.env.REACT_APP_API_URL}/api/accounts/signup`, body, config
+            `${process.env.REACT_APP_API_URL}/api/accounts/signup/`,
+            body,
+            config
         );
         dispatch({
             type: SIGNUP_SUCCESS,
@@ -48,7 +51,9 @@ export const signup = ({ name, email, password, password2 }) => async dispatch =
         dispatch(login(email, password));
     } catch (err) {
         dispatch({type: SIGNUP_FAIL});
-        dispatch(setAlert('Error Authenticating', 'error'));
+        let message = err.response.data.error;
+        console.log(message);
+        dispatch(setAlert(message, 'error'));
     }
 };
 
